@@ -72,7 +72,7 @@ const Quote = () => {
         formDataToSend.append('attachment', formData.file);
       }
 
-      const response = await fetch('https://3d-era-lab-email-sender.ihor-barduik.workers.dev', {
+      const response = await fetch('https://3d-era-email-worker.3deralab.workers.dev', {
         method: 'POST',
         body: formDataToSend,
       });
