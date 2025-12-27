@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Era Lab - Professional 3D Printing Services</title>
+    <meta name="description" content="Professional 3D printing services with engineering-grade materials. Fast prototypes, custom parts, and expert CAD support in Australia." />
+    <meta name="author" content="3D Era Lab" />
+
+    <meta property="og:title" content="3D Era Lab - Professional 3D Printing Services" />
+    <meta property="og:description" content="Professional 3D printing services with engineering-grade materials. Fast prototypes, custom parts, and expert CAD support in Australia." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@3DeraLab" />
+    <meta name="twitter:image" content="/og-image.png" />
+    
+    <script>
+      // Apply dark theme immediately to prevent flash
+      const theme = localStorage.getItem('theme') || 'dark';
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
