@@ -72,7 +72,7 @@ const Quote = () => {
         formDataToSend.append('attachment', formData.file);
       }
 
-      const response = await fetch('https://3d-era-email-worker.3deralab.workers.dev', {
+      const response = await fetch('https://api.3deralab.com.au', {
         method: 'POST',
         body: formDataToSend,
       });
